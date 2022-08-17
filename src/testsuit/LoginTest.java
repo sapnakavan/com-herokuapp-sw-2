@@ -114,6 +114,10 @@ public class LoginTest extends BestTest {
         Assert.assertEquals(expmess,accmess);
 
     }
+    @After
+    public void teardown(){
+        closeBrowser();
+    }
 
 
 }
